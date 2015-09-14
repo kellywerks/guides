@@ -115,7 +115,7 @@ Ember has built-in **helpers** that provide functionality such as linking to oth
 
 The helper takes an argument with the name of the route to link to, in this case, `contact`.  When we look at our about page, we now have a link to our contact page.
 
-<img src="../../images/routes-and-templates/ember-super-rentals-index.png" width="680"/>
+<img src="../../images/routes-and-templates/ember-super-rentals-about.png" width="680"/>
 
 Now, we'll add one to link to our about page so we can navigate from back and forth from `about` to `contact`.
 
@@ -152,7 +152,7 @@ installing route-test
   create tests/unit/routes/index-test.js
 ```
 
-Unlike the other route handlers we've made so far, the `index` route is special: it does NOT require an entry in the router's mapping, and you'll notice that the action of updating the router was not taken by the generator. We'll learn more about why the entry isn't required when we touch on nested routes. 
+Unlike the other route handlers we've made so far, the `index` route is special: it does NOT require an entry in the router's mapping, and you'll notice that the action of updating the router was not taken by the generator. We'll learn more about why the entry isn't required when we touch on nested routes.
 
 We can update our `index.hbs` with some HTML and we have our welcome home page and our links to the other routes in our application:
 
