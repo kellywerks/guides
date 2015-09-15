@@ -1,8 +1,8 @@
 To demonstrate the basic setup and processing of an Ember application, the next few lessons are going to walkthrough building a very simple application for a property rental site called Super Rentals.  It will start with just a homepage, an about page and a contact page.  Let's take a look at the application from the user perspective before we get started.
 
-We arrive at the home page which shows a list of rentals.  From here, we will be able to navigate to an about page and a contact page.  
-
 <img src="../../images/routes-and-templates/ember-super-rentals-index.png" width="680"/>
+
+We arrive at the home page which shows a list of rentals.  From here, we will be able to navigate to an about page and a contact page.  
 
 We already have the new app called super-rentals created. Before we start building the three pages for our app, we are going to clear out the contents of the `app/templates/application.hbs` file and only leave the {{outlet}} code in place.  We'll talk more about the role of the `application.hbs` file after our site has a few pages.
 
@@ -101,7 +101,7 @@ Now we have completed our second static page.  If we enter the URL,  `http://sup
 
 We really don't want users to have to know our URLs in order to move around our site, so let's add some navigational links at the bottom of each page.  Let's make a contact link on the about page and an about link on the contact page.
 
-Ember has built-in **helpers** that provide functionality such as linking to other routes.  Here is how to use the {{link-to}} helper is used in our code:
+Ember has built-in **helpers** that provide functionality such as linking to other routes.  Here is how to use the {{link-to}} helper in our code:
 
 ```app/templates/about.hbs
 <h2>About Super Rentals</h2>
