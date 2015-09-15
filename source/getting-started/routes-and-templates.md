@@ -1,6 +1,6 @@
 To demonstrate the basic setup and processing of an Ember application, the next few lessons are going to walkthrough building a very simple application for a property rental site called Super Rentals.  It will start with just a homepage, an about page and a contact page.  Let's take a look at the application from the user perspective before we get started.
 
-<img src="../../images/routes-and-templates/ember-super-rentals-index.png" width="680"/>
+![super rentals homepage screenshot](../../images/routes-and-templates/ember-super-rentals-index.png)
 
 We arrive at the home page which shows a list of rentals.  From here, we will be able to navigate to an about page and a contact page.  
 
@@ -115,7 +115,7 @@ Ember has built-in **helpers** that provide functionality such as linking to oth
 
 The helper takes an argument with the name of the route to link to, in this case, `contact`.  When we look at our about page, we now have a link to our contact page.
 
-<img src="../../images/routes-and-templates/ember-super-rentals-about.png" width="680"/>
+![super rentals about page screenshot](../../images/routes-and-templates/ember-super-rentals-about.png)
 
 Now, we'll add one to link to our about page so we can navigate from back and forth from `about` to `contact`.
 
