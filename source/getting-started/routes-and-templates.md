@@ -8,7 +8,7 @@ We already have the new app called super-rentals created. Before we start buildi
 
 Now, let's start with building our "about" page. Remember, when the URL path `/about` is loaded, the router will map the URL to the route handler of the same name, _about.js_.  The route handler then loads a template.  
 
-## An About Page
+## An About Route
 
 If we run `ember help generate`, we can see a variety of tools come with Ember for automatically generating files for various Ember resources.  We'll use the route generator to build our `about` route.
 
@@ -66,7 +66,7 @@ With all of the routing in place from the generator, we can get right to work on
   AND building Ember applications simultaneously.</p>
 ```
 
-## A Contact Page
+## A Contact Route
 
 Let's create another static page with details for contacting the company.  Once again, we'll start by generating a route, a route handler, and a template.
 
@@ -97,7 +97,7 @@ any questions you may have.</p>
 
 Now we have completed our second static page.  If we enter the URL,  `http://super-rentals/contact`, we arrive on our contact page.
 
-## Navigating with links and the {{link-to}} helper
+## Navigating with Links and the {{link-to}} Helper
 
 We really don't want users to have to know our URLs in order to move around our site, so let's add some navigational links at the bottom of each page.  Let's make a contact link on the about page and an about link on the contact page.
 
@@ -138,7 +138,7 @@ Now, we'll add one to link to our about page so we can navigate from back and fo
 {{#link-to 'about'}}About{{/link-to}}
 ```
 
-## An Index Page
+## An Index Route
 
 With our two static pages in place, we are ready to add our home page which welcomes users to the site.  Using the same process we did for our about and contact pages, we will first generate a new route called "index".
 
