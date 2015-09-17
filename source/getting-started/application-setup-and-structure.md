@@ -26,7 +26,7 @@ directories:
 
 ```text
 |--app
-|--bower-components
+|--bower_components
 |--config
 |--dist
 |--node_modules
@@ -48,14 +48,14 @@ Let's quickly take a look at the anatomy of an Ember application.
 templates and styles are stored. As we'll see, the majority of our coding on a
 project happens in this folder.
 
-**bower-components / _bower.json**: **bower** is a dependency management tool.
+**bower_components / _bower.json**: **bower** is a dependency management tool.
 It is used in Ember to manage front-end plugins and component dependencies
 (HTML, CSS, JavaScript, etc).  All bower components are installed in the
-bower-components directory.  If we open `bower.json`, we see the list of
+bower_components directory.  If we open `bower.json`, we see the list of
 dependencies that are installed automatically including Ember, jQuery, Ember
 Data and QUnit (for testing). If we add additional front-end dependencies,
 such as `bootstrap`, we will see them listed here and added to the
-`bower-components` directory.
+`bower_components` directory.
 
 **config**: The config directory contains the _environment.js_ file which lists
 environmental settings for our app.
